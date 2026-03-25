@@ -1,4 +1,4 @@
-# Bibliotecas
+# Importação de bibliotecas
 from scipy import signal as sg
 import matplotlib.pyplot as plt
 import numpy as np
@@ -21,8 +21,9 @@ u = u[:NA]
 tempo_medido = np.zeros(len(y)).astype(float)
 
 # Coleta
+# Coleta realizada por Luiz Felipe Souza - LAPTOPPESSOAL.COM4.25/03/2026
 print('\n Conexão')
-conexao = serial.Serial(port='COM8',
+conexao = serial.Serial(port='COM4',
                         baudrate=115200, 
                         timeout=0.005)
 
@@ -66,4 +67,4 @@ plt.show()
 
 # Salva Dados:
 Dados = np.stack((tempo_medido,u,y), axis=-1)
-np.save(r"DadosMG.npy",Dados)
+np.save(r"Dadosteste1MG.npy",Dados)
