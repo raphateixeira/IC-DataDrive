@@ -1,0 +1,18 @@
+---
+title: "Iniciação Científica — Controle Orientado a Dados"
+subtitle: "Identificação e controle de conversores de potência"
+author: "Prof. Dr. Raphael Teixeira"
+---
+
+Iniciação científica em eletrônica de potência e controle orientado a dados:
+identificação e controle (PID, MPC) de conversores CC-CC, CC-CA e CA-CA a
+partir de dados experimentais de bancada motor-gerador.
+
+## Conteúdo
+
+* [Identificação de motor-gerador por mínimos quadrados](Motor%20Gerador%20Indentifica%C3%A7%C3%A3o.html) — modelo ARX $y(t) = ay(t-1) + bu(t-1)$ estimado via mínimos quadrados.
+
+## Scripts de suporte
+
+* `ColetaPRBS.py` — coleta de sinais PRBS para identificação.
+* `conversãocsv.py` — conversão de dados coletados para CSV.

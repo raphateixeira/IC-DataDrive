@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - "Motor Gerador Indentificação.ipynb"
+
+website:
+  title: "IC - Controle Orientado a Dados"
+  site-url: https://raphateixeira.github.io/IC-DataDrive/
+  repo-url: https://github.com/raphateixeira/IC-DataDrive
+
+format:
+  html:
+    theme: [cosmo, TemaRTx.scss]
+    lang: pt-BR
+    toc: true
