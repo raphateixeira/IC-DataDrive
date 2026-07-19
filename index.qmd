@@ -16,3 +16,10 @@ partir de dados experimentais de bancada motor-gerador.
 
 * `ColetaPRBS.py` — coleta de sinais PRBS para identificação.
 * `conversãocsv.py` — conversão de dados coletados para CSV.
+
+## Ver também
+
+* [Identificacao](https://raphateixeira.github.io/Identificacao/) — fundamentos teóricos usados aqui: projeto de sinais PRBS, persistência de excitação e identificação ARX por mínimos quadrados.
+* [Projeto-Aeropendulo](https://raphateixeira.github.io/Projeto-Aeropendulo/) — mesma metodologia (PRBS + ARX por mínimos quadrados) aplicada a outra planta.
+* [ControleDFIG](https://raphateixeira.github.io/ControleDFIG/) — identificação ARX aplicada a um sistema trifásico, como etapa de um controle preditivo (FCS-MPC).
+* [DataDrivenControl](https://raphateixeira.github.io/DataDrivenControl/) — próximo passo: controle direto sobre dados (DeePC) sem passar por um modelo ARX explícito.
